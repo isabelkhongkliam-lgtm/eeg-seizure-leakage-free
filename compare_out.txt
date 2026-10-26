@@ -1,0 +1,16 @@
+
+=== recording_wise: reference = lightgbm (best classical by mean MCC) ===
+full           accuracy: -0.0034 (sd 0.0058, wins 2/5)  mcc: -0.0108 (sd 0.0179, wins 2/5)  auprc: -0.0018 (sd 0.0013, wins 0/5)
+logreg         accuracy: -0.0105 (sd 0.0046, wins 0/5)  mcc: -0.0326 (sd 0.0199, wins 0/5)  auprc: -0.0077 (sd 0.0022, wins 0/5)
+no_attn        accuracy: -0.0046 (sd 0.0065, wins 1/5)  mcc: -0.0141 (sd 0.0186, wins 1/5)  auprc: -0.0029 (sd 0.0025, wins 0/5)
+random_forest  accuracy: -0.0036 (sd 0.0025, wins 0/5)  mcc: -0.0110 (sd 0.0067, wins 0/5)  auprc: -0.0015 (sd 0.0014, wins 1/5)
+svm_rbf        accuracy: -0.0044 (sd 0.0026, wins 0/5)  mcc: -0.0138 (sd 0.0070, wins 0/5)  auprc: -0.0043 (sd 0.0045, wins 1/5)
+
+=== random_segment: reference = lightgbm (best classical by mean MCC) ===
+full           accuracy: +0.0001 (sd 0.0010, wins 2/5)  mcc: +0.0004 (sd 0.0032, wins 2/5)  auprc: +0.0002 (sd 0.0006, wins 3/5)
+logreg         accuracy: -0.0132 (sd 0.0022, wins 0/5)  mcc: -0.0391 (sd 0.0064, wins 0/5)  auprc: -0.0064 (sd 0.0012, wins 0/5)
+no_attn        accuracy: +0.0014 (sd 0.0018, wins 4/5)  mcc: +0.0046 (sd 0.0050, wins 4/5)  auprc: +0.0004 (sd 0.0005, wins 4/5)
+random_forest  accuracy: -0.0025 (sd 0.0006, wins 0/5)  mcc: -0.0080 (sd 0.0018, wins 0/5)  auprc: -0.0016 (sd 0.0004, wins 0/5)
+svm_rbf        accuracy: -0.0023 (sd 0.0006, wins 0/5)  mcc: -0.0074 (sd 0.0020, wins 0/5)  auprc: -0.0019 (sd 0.0005, wins 0/5)
+
+wins = folds where the model beats the reference.

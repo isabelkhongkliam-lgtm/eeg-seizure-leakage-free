@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.zip
+.vscode/
+data/
+data_cleaning.py
+results.csv
+top20_features.csv
+results/runs_OLD_invalid.csv
+results/metrics_summary.csv
+results/top20_features.csv
